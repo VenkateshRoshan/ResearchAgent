@@ -1,0 +1,28 @@
+# Environment and local config
+.env
+.venv/
+venv/
+.python-version
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+wheels/
+*.egg-info/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Project runtime artifacts
+memory/
